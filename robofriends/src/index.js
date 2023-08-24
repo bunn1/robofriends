@@ -1,15 +1,19 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import Hello from './Hello.js';
-import reportWebVitals from './reportWebVitals';
-import 'tachyons';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import Card from "./Card.js";
+import reportWebVitals from "./reportWebVitals";
+import "tachyons";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
- {/* Visar sidan på nätet */}
-  <Hello greeting={'Hello' + 'React Ninja!'} />
+    {/* Visar sidan på nätet */}
+    <div>
+      <Card />
+      <Card />
+      <Card />
+    </div>
   </React.StrictMode>
 );
 
