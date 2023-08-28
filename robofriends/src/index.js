@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import App from "./App";
+import App from "./containers/App";
 import reportWebVitals from "./reportWebVitals";
 import "tachyons";
 // Export default behöver inga klamrar runt sig. Endast en variabel som skall visas. Om man exporterar utan default (flera variabler) behövs klamrar.

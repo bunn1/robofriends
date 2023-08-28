@@ -16,7 +16,7 @@ const CardList = ({ robots }) => {
   // )
 
   return (
-    <div>
+    <div className="tc grow bg-light-green br3 pa3 ma2 dib bw2 shadow-5" >
       {robots.map((user, i) => {
         // En array måste ha en key - ex om ett Card försvinner lättare för dator att hålla koll.
         return (
